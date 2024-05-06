@@ -1,0 +1,27 @@
+h1 {
+    display: grid;
+    font-size: 15px;
+    margin: 0;
+    writing-mode: vertical-lr;
+    text-align: right;
+    
+
+}
+
+.righttext {
+    height: 100vh;
+    justify-content: right;
+    align-items: right;
+    grid-template-columns: max-content max-content;
+
+}
+
+body {
+    background-color: #F8F6E3 !important;
+    font-family: "Kanit", sans-serif !important;
+}
+
+.btn {
+    background-color: #20c5b5 !important;
+    border-color: #20c5b5 !important;
+}

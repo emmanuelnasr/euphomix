@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="payment.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
+</head>
+    <body>
+        <div class="container">
+            <div class="py-5 text-center">
+              
+              <h2>Checkout</h2>
+            </div>
+          
+                
+              <div class="col-md-8 order-md-1">
+                <h4 class="mb-3">Billing address</h4>
+                <form class="needs-validation" novalidate>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="firstName">First name</label>
+                      <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                      <div class="invalid-feedback">
+                        Valid first name is required.
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="lastName">Last name</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                      <div class="invalid-feedback">
+                        Valid last name is required.
+                      </div>
+                    </div>
+                  </div>
+          
+          
+                  <div class="mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                    <div class="invalid-feedback">
+                      Please enter a valid email address for shipping updates.
+                    </div>
+                  </div>
+          
+                  <div class="mb-3">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                    <div class="invalid-feedback">
+                      Please enter your shipping address.
+                    </div>
+                  </div>
+          
+                  <div class="row">
+                    <div class="col-md-5 mb-3">
+                      <label for="country">Country</label>
+                      <select class="custom-select d-block w-100" id="country" required>
+                        <option value="">Choose...</option>
+                        <option>Afghanistan</option>
+                        <option>Albania</option>
+                        <option>Algeria</option>
+                        <option>Andorra</option>
+                        <option>Angola</option>
+                        <option>Antigua and Barbuda</option>
+                        <option>Argentina</option>
+                        <option>Armenia</option>
+                        <option>Australia</option>
+                        <option>Austria</option>
+                        <option>Azerbaijan</option>
+                        <option>Bahamas</option>
+                        <option>Bahrain</option>
+                        <option>Bangladesh</option>
+                        <option>Barbados</option>
+                        <option>Belarus</option>
+                        <option>Belgium</option>
+                        <option>Belize</option>
+                        <option>Benin</option>
+                        <option>Bhutan</option>
+                        <option>Bolivia</option>
+                        <option>Bosnia and Herzegovina</option>
+                        <option>Botswana</option>
+                        <option>Brazil</option>
+                        <option>Brunei</option>
+                        <option>Bulgaria</option>
+                        <option>Burkina Faso</option>
+                        <option>Burundi</option>
+                        <option>Cabo Verde</option>
+                        <option>Cambodia</option>
+                        <option>Cameroon</option>
+                        <option>Canada</option>
+                        <option>Central African Republic</option>
+                        <option>Chad</option>
+                        <option>Chile</option>
+                        <option>China</option>
+                        <option>Colombia</option>
+                        <option>Comoros</option>
+                        <option>Congo, Democratic Republic of the</option>
+                        <option>Congo, Republic of the</option>
+                        <option>Costa Rica</option>
+                        <option>Croatia</option>
+                        <option>Cuba</option>
+                        <option>Cyprus</option>
+                        <option>Czech Republic</option>
+                        <option>Denmark</option>
+                        <option>Djibouti</option>
+                        <option>Dominica</option>
+                        <option>Dominican Republic</option>
+                        <option>East Timor (Timor-Leste)</option>
+                        <option>Ecuador</option>
+                        <option>Egypt</option>
+                        <option>El Salvador</option>
+                        <option>Equatorial Guinea</option>
+                        <option>Eritrea</option>
+                        <option>Estonia</option>
+                        <option>Eswatini</option>
+                        <option>Ethiopia</option>
+                        <option>Fiji</option>
+                        <option>Finland</option>
+                        <option>France</option>
+                        <option>Gabon</option>
+                        <option>Gambia</option>
+                        <option>Georgia</option>
+                        <option>Germany</option>
+                        <option>Ghana</option>
+                        <option>Greece</option>
+                        <option>Grenada</option>
+                        <option>Guatemala</option>
+                        <option>Guinea</option>
+                        <option>Guinea-Bissau</option>
+                        <option>Guyana</option>
+                        <option>Haiti</option>
+                        <option>Honduras</option>
+                        <option>Hungary</option>
+                        <option>Iceland</option>
+                        <option>India</option>
+                        <option>Indonesia</option>
+                        <option>Iran</option>
+                        <option>Iraq</option>
+                        <option>Ireland</option>
+                        <option>Israel</option>
+                        <option>Italy</option>
+                        <option>Jamaica</option>
+                        <option>Japan</option>
+                        <option>Jordan</option>
+                        <option>Kazakhstan</option>
+                        <option>Kenya</option>
+                        <option>Kiribati</option>
+                        <option>Korea, North</option>
+                        <option>Korea, South</option>
+                        <option>Kosovo</option>
+                        <option>Kuwait</option>
+                        <option>Kyrgyzstan</option>
+                        <option>Laos</option>
+                        <option>Latvia</option>
+                        <option>Lebanon</option>
+                        <option>Lesotho</option>
+                        <option>Liberia</option>
+                        <option>Libya</option>
+                        <option>Liechtenstein</option>
+                        <option>Lithuania</option>
+                        <option>Luxembourg</option>
+                        <option>Madagascar</option>
+                        <option>Malawi</option>
+                        <option>Malaysia</option>
+                        <option>Maldives</option>
+                        <option>Mali</option>
+                        <option>Malta</option>
+                        <option>Marshall Islands</option>
+                        <option>Mauritania</option>
+                        <option>Mauritius</option>
+                        <option>Mexico</option>
+                        <option>Micronesia</option>
+                        <option>Moldova</option>
+                        <option>Monaco</option>
+                        <option>Mongolia</option>
+                        <option>Montenegro</option>
+                        <option>Morocco</option>
+                        <option>Mozambique</option>
+                        <option>Myanmar (Burma)</option>
+                        <option>Namibia</option>
+                        <option>Nauru</option>
+                        <option>Nepal</option>
+                        <option>Netherlands</option>
+                        <option>New Zealand</option>
+                        <option>Nicaragua</option>
+                        <option>Niger</option>
+                        <option>Nigeria</option>
+                        <option>North Macedonia (formerly Macedonia)</option>
+                        <option>Norway</option>
+                        <option>Oman</option>
+                        <option>Pakistan</option>
+                        <option>Palau</option>
+                        <option>Palestine</option>
+                        <option>Panama</option>
+                        <option>Papua New Guinea</option>
+                        <option>Paraguay</option>
+                        <option>Peru</option>
+                        <option>Philippines</option>
+                        <option>Poland</option>
+                        <option>Portugal</option>
+                        <option>Qatar</option>
+                        <option>Romania</option>
+                        <option>Russia</option>
+                        <option>Rwanda</option>
+                        <option>Saint Kitts and Nevis</option>
+                        <option>Saint Lucia</option>
+                        <option>Saint Vincent and the Grenadines</option>
+                        <option>Samoa</option>
+                        <option>San Marino</option>
+                        <option>Sao Tome and Principe</option>
+                        <option>Saudi Arabia</option>
+                        <option>Senegal</option>
+                        <option>Serbia</option>
+                        <option>Seychelles</option>
+                        <option>Sierra Leone</option>
+                        <option>Singapore</option>
+                        <option>Slovakia</option>
+                        <option>Slovenia</option>
+                        <option>Solomon Islands</option>
+                        <option>Somalia</option>
+                        <option>South Africa</option>
+                        <option>South Sudan</option>
+                        <option>Spain</option>
+                        <option>Sri Lanka</option>
+                        <option>Sudan</option>
+                        <option>Suriname</option>
+                        <option>Sweden</option>
+                        <option>Switzerland</option>
+                        <option>Syria</option>
+                        <option>Taiwan</option>
+                        <option>Tajikistan</option>
+                        <option>Tanzania</option>
+                        <option>Thailand</option>
+                        <option>Togo</option>
+                        <option>Tonga</option>
+                        <option>Trinidad and Tobago</option>
+                        <option>Tunisia</option>
+                        <option>Turkey</option>
+                        <option>Turkmenistan</option>
+                        <option>Tuvalu</option>
+                        <option>Uganda</option>
+                        <option>Ukraine</option>
+                        <option>United Arab Emirates</option>
+                        <option>United Kingdom</option>
+                        <option>United States</option>
+                        <option>Uruguay</option>
+                        <option>Uzbekistan</option>
+                        <option>Vanuatu</option>
+                        <option>Vatican City</option>
+                        <option>Venezuela</option>
+                        <option>Vietnam</option>
+                        <option>Yemen</option>
+                        <option>Zambia</option>
+                        <option>Zimbabwe</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid country.
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="zip">Zip</label>
+                      <input type="text" class="form-control" id="zip" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Zip code required.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="save-info">
+                    <label class="custom-control-label" for="save-info">Save this information for next time</label>
+                  </div>
+                  <hr class="mb-4">
+          
+                  <h4 class="mb-3">Payment</h4>
+          
+                  <div class="d-block my-3">
+                    <div class="custom-control custom-radio">
+                      <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                      <label class="custom-control-label" for="credit">Credit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                      <label class="custom-control-label" for="debit">Debit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                      <label class="custom-control-label" for="paypal">PayPal</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="cc-name">Name on card</label>
+                      <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                      <small class="text-muted">Full name as displayed on card</small>
+                      <div class="invalid-feedback">
+                        Name on card is required
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="cc-number">Credit card number</label>
+                      <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Credit card number is required
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3 mb-3">
+                      <label for="cc-expiration">Expiration</label>
+                      <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Expiration date required
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="cc-cvv">CVV</label>
+                      <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Security code required
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="mb-4">
+                  <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+                </form>
+              </div>
+            </div>
+          
+            <footer class="my-5 pt-5 text-muted text-center text-small">
+              <p class="mb-1">© 2024 Euphomix. All Rights Reserved.</p>
+            </footer>
+          </div>
+    </body>
+</html>
