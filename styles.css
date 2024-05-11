@@ -1,5 +1,5 @@
 .navClass {
-    background-color: #F8F6E3 !important;
+    background-color: #fbf9e1 !important;
 }
 
 .dropdown-item {
@@ -8,7 +8,7 @@
 
 .dropdown-toggle {
     color:black !important;
-    background-color:#F8F6E3 !important;
+    background-color:#fbf9e1 !important;
     border-style: none;
     font-weight: bold;
 }
@@ -40,7 +40,7 @@ overflow: auto;
 }
 
 .bg-dark {
-    background-color: #F8F6E3 !important;
+    background-color: #fbf9e1!important;
 }
 
 .navbar-brand {
@@ -62,7 +62,7 @@ overflow: auto;
 }
 
 .whitebg {
-    background-color: #F8F6E3;
+    background-color: #fbf9e1;
 }
 
 #navbarSupportedContent {
@@ -74,10 +74,10 @@ overflow: auto;
         border-color: black;
 }
 .py-3 {
-    background-color: #F8F6E3 !important;
+    background-color: #fbf9e1 !important;
 }
 .card-body {
-    background-color: #F8F6E3 !important;
+    background-color: #fbf9e1 !important;
 }
 
 .w-100 {
@@ -90,6 +90,94 @@ overflow: auto;
     color: white;
 }
 
-body {
+body{
     font-family: "Kanit", sans-serif !important;
+}
+
+.section {
+    background-color:#20c5b5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+h3 {
+    font-family: "Kanit", sans-serif; 
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    margin-top: 110px;
+   margin-left:-25%;
+    width: 550px;
+   font-size:300%;
+   
+}
+.logo {
+    width: 300px; 
+    height: 200px;
+    font-size: large;
+}
+
+.buttons {
+    display: flex;
+    flex-direction:row;
+}
+
+.button {
+    background-color: #fbf9e1;
+    color:black;
+    border: none;
+    
+    width: 200px;
+    padding: 10px 20px;
+    margin-top: 20%;
+    margin-bottom: 6%;
+    margin-left: 10%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+
+.button:hover {
+    background-color: #fbf9e1;
+}
+.fa-brands{
+    font-size: xx-large;
+}
+.title-image {
+    
+    transform: rotate(360deg);
+    position: absolute;
+    width: 800px;
+    margin-left: 10%;
+    margin-top: -14.9%;
+}
+
+.artistOption {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.artistSection{
+    background-color: #20c5b5;
+}
+
+.artistButton {
+    border: white;
+    border-radius: 6px;
+    padding-left: auto;
+    background-color: white;
+    color: #20c5b5;
+    display: block;
+    margin: auto;
+    padding: 5px;
 }
