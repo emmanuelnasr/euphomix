@@ -1,0 +1,312 @@
+.navClass {
+    background-color: #fbf9e1 !important;
+}
+
+.dropdown-item {
+    text-align: center;
+}
+
+.dropdown-toggle {
+    color:black !important;
+    background-color:#fbf9e1 !important;
+    border-style: none;
+    font-weight: bold;
+}
+
+.dropdown-toggle:visited {
+    color:black !important;
+}
+
+.dropdown-toggle:hover {
+    color:black !important;
+}
+
+.dropdown-toggle:active {
+    color:black !important;
+}
+
+.dropdown {
+    color: black !important;
+}
+
+.navbar-brand {
+font-family: "Kanit", sans-serif !important;
+text-align: left !important;
+font-size: large;
+};
+
+.container-fluid {
+overflow: auto;
+}
+
+.bg-dark {
+    background-color: #fbf9e1!important;
+}
+
+.navbar-brand {
+    color:black;
+}
+
+.nav-link {
+    color:black;
+}
+
+.navbar-brand:hover {
+    color:black;
+    font-weight:bold;
+}
+
+.nav-link:hover  {
+    color:black;
+    opacity: 0.7;
+}
+
+.whitebg {
+    background-color: #fbf9e1;
+}
+
+#navbarSupportedContent {
+    color:black;
+}
+
+.g-col-4 {
+        border-style: solid;
+        border-color: black;
+}
+.py-3 {
+    background-color: #fbf9e1 !important;
+}
+.card-body {
+    background-color: #fbf9e1 !important;
+}
+
+.w-100 {
+    background-color: #20c5b5 !important;
+    border-color: #20c5b5 !important;
+}
+
+.buttongt {
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    font-family: "Kanit", sans-serif !important;
+}
+
+.section {
+    background-color:#20c5b5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+h3 {
+    font-family: "Kanit", sans-serif; 
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    margin-top: 110px;
+   margin-left:-25%;
+    width: 550px;
+   font-size:300%;
+   
+}
+.logo {
+    width: 300px; 
+    height: 200px;
+    font-size: large;
+}
+
+.buttons {
+    display: flex;
+    flex-direction:row;
+}
+
+.button {
+    background-color: #fbf9e1;
+    color:black;
+    border: none;
+    
+    width: 200px;
+    padding: 10px 20px;
+    margin-top: 20%;
+    margin-bottom: 6%;
+    margin-left: 10%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+
+.button:hover {
+    background-color: #fbf9e1;
+}
+.fa-brands{
+    font-size: xx-large;
+}
+.title-image {
+    
+    transform: rotate(360deg);
+    position: absolute;
+    width: 800px;
+    margin-left: 10%;
+    margin-top: -14.9%;
+}
+
+.artistOption {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.artistSection{
+    background-color: #20c5b5;
+}
+
+.artistButton {
+    border: white;
+    border-radius: 6px;
+    padding-left: auto;
+    background-color: white;
+    color: #20c5b5;
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+
+.social_s {
+    background-color: #fbf9e1;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.img-container {
+    display:flex;
+    justify-content:center;
+    align-items:end;
+    margin-bottom: 5px;
+    padding: 10px;
+
+}
+
+.socials {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    align-items:end;
+}
+.socials:hover{
+    cursor: pointer;
+}
+
+p {
+    font-size: 25px;
+    font-family: "Kanit", sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px; 
+}
+
+footer {
+    font-size: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.body {
+    font-family:Arial, sans-serif;
+    background-image: url('file:///C:/Users/oh247/OneDrive/Desktop/9a00339e7f3084be846610ccc9b64708.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 50px;
+    background-color: beige;
+}
+.second-paragraph{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.25em;
+        height: 30xp;
+        text-align: justify;
+        margin-right: 30px;
+        margin-left:  30px;
+}
+.text{
+    text-shadow: 5px -5px 10px rgb(0, 0, 0);
+}
+
+.centered-paragraph {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+form {
+    max-width: 500px;
+    margin: auto;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.form-group button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #91fc97;
+}
+form {
+    max-width: 500px;
+    margin: auto;
+    background-color:#20c5b5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}

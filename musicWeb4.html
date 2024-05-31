@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel = "stylesheet" href="musicWeb.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://kit.fontawesome.com/781aba8e38.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <header>
+            <div class="menu_side">
+                <h1>EUPHOMIX</h1>
+                <div class="playlist">
+                    <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+                    <h4><span></span><i class="bi bi-music-note-beamed"></i>Last Listened</h4>                    
+                    <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
+                </div>
+                <div class="menu_song">
+                   <img src="pic111.png" alt="happyPerson" id="happyPerson">
+                   
+                    <li class="songItem">
+                        
+
+                    </li>
+                </div>
+            </div>
+            <div class="song_side">
+                <nav>
+                    <ul>
+                        <li>Discover <span></span></li>
+                        <li>My Library</li>
+                        <li>Radio</li>
+                    </ul>
+                    <div class="search">
+                        <i class="bi bi-search"></i>
+                        <input type="text" placeholder="Search music ...">
+                    </div>
+                 </nav>
+                 <div class="content">
+                    <h1>Listen to Wael Kfoury newest's album</h1>
+                    <p>Now and only now on Euphomix...</p>
+                    <button onclick="location.href='musicWeb.html'">Play</button>
+                    <button>Follow</button>
+                 </div>
+                 <div class="popular_songs">
+                    <div class="h4">
+                        <h4>Popular Songs</h4>
+                        <div class="btn_s">
+                            <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                            <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+                         </div>
+                    </div>
+                    <div class="pop_song">
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="media/1laekherdakka.png" alt="laekherdakka">
+                                <i onclick="location.href='musicWeb.html'" class="bi bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <h5>La Akher Dakka
+                            </br>
+                                <div class="subtitle">Wael Kfoury</div>
+                            </h5>
+                        </li>
+
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="media/2kifakinta.jpg" alt="kifakinta">
+                                <i onclick="location.href='musicWeb2.html'" class="bi bi-play-circle-fill" id="8"></i>
+                            </div>
+                            <h5>Kifak Inta
+                            </br>
+                                <div class="subtitle">Fairuz</div>
+                            </h5>
+                        </li>
+
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="media/3mafileil.jpg" alt="mafileil">
+                                <i onclick="location.href='musicWeb3.html'" class="bi bi-play-circle-fill" id="9"></i>
+                            </div>
+                            <h5>Ma Fi Leil
+                            </br>
+                                <div class="subtitle">Nassif Zeytoun</div>
+                            </h5>
+                        </li>
+
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="media/4chihiro.jpg" alt="chihiro">
+                                <i onclick="playPause()" class="bi bi-play-circle-fill" id="10"></i>
+                                <audio id="song1">
+                                    <source src="audio/4chihiro.mp3" type="audio/mp3">
+                                  </audio>
+                            </div>
+                            <h5>Chihiro
+                            </br>
+                                <div class="subtitle">Billie Eilish</div>
+                            </h5>
+                        </li>
+
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="media/5hipsdontlie.jpg" alt="hipsdontlie">
+                                <i onclick="location.href='musicWeb5.html'" class="bi bi-play-circle-fill" id="11"></i>
+                            </div>
+                            <h5>Hips Don't Lie
+                            </br>
+                                <div class="subtitle">Shakira</div>
+                            </h5>
+                        </li>
+
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="media/6zelzal.jpg" alt="zelzal">
+                                <i onclick="location.href='musicWeb6.html'" class="bi bi-play-circle-fill" id="12"></i>
+                            </div>
+                            <h5>Zelzal
+                            </br>
+                                <div class="subtitle">Wadih El Sheikh</div>
+                            </h5>
+                        </li>
+
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="media/7elfy.png" alt="elfy">
+                                <i onclick="location.href='musicWeb7.html'" class="bi bi-play-circle-fill" id="13"></i>
+                            </div>
+                            <h5>Elfy
+                            </br>
+                                <div class="subtitle">Siilawy</div>
+                            </h5>
+                        </li>
+
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="media/8himandi.jpg" alt="himandi">
+                                <i onclick="location.href='musicWeb8.html'" class="bi bi-play-circle-fill" id="14"></i>
+                            </div>
+                            <h5>Him & I
+                            </br>
+                                <div class="subtitle">G-easy & Hasley</div>
+                            </h5>
+                        </li>
+
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="media/9shuaamelfiyyi.png" alt="shuaamelfiyyi">
+                                <i onclick="location.href='musicWeb9.html'" class="bi bi-play-circle-fill" id="15"></i>
+                            </div>
+                            <h5>Shu Aamel Fiyyi
+                            </br>
+                                <div class="subtitle">Ragheb Aalama</div>
+                            </h5>
+                        </li>
+
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="media/10anameshsoutak.jpg" alt="anameshsoutak">
+                                <i onclick="location.href='musicWeb10.html'" class="bi bi-play-circle-fill" id="16"></i>
+                            </div>
+                            <h5>Ana Mesh Soutak
+                            </br>
+                                <div class="subtitle">Elissa</div>
+                            </h5>
+                        </li>
+
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="media/11skyfall.jpg" alt="Skyfall">
+                                <i onclick="location.href='musicWeb11.html'" class="bi bi-play-circle-fill" id="17"></i>
+                            </div>
+                            <h5>Skyfall
+                            </br>
+                                <div class="subtitle">Adele</div>
+                            </h5>
+                        </li>
+
+                    </div>
+                 </div>
+                 <div class="popular_artists">
+                    <div class="h4">
+                        <h4>Popular Artists</h4>
+                        <div class="btn_s">
+                            <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+                            <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+                         </div>
+                    </div>
+                    <div class="item">
+                        <li>
+                            <div class="artistImg"><img src="media/1waelkfoury.jpg" alt="wk" title="Wael Kfoury" onclick="location.href='musicWeb.html'"></div>
+                            
+                            <h5>Wael Kfoury</h5>
+                        </li>
+
+                        <li>
+                            <div class="artistImg"><img src="media/2fairuz.jpg" alt="Fairuz" title="Fairuz" onclick="location.href='musicWeb2.html'"></div>
+                            
+                            <h5>Fairuz</h5>
+                        </li>
+
+                        <li>
+                            <div class="artistImg"><img src="media/3nassifzaytoun.jpg" alt="Nassif Zeytoun" title="Nassif Zeytoun" onclick="location.href='musicWeb3.html'"></div>
+                            
+                            <h5>Nassif Zeytoun</h5>
+                        </li>
+
+                        <li>
+                            <div class="artistImg"><img src="media/4billieeillish.jpg" alt="Billie Eillish" title="Billie Eillish"></div>
+                            
+                            <h5>Billie Eillish</h5>
+                        </li>
+
+                        <li>
+                            <div class="artistImg"><img src="media/5shakira.jpg" alt="Shakira" title="Shakira" onclick="location.href='musicWeb5.html'"></div>
+                            
+                            <h5>Shakira</h5>
+                        </li>
+
+                        <li>
+                            <div class="artistImg"><img src="media/6wadihelsheikh.jpg" alt="Wadih El Sheikh" title="Wadih El Sheikh"  onclick="location.href='musicWeb6.html'"></div>
+                            
+                            <h5>Wadih El Sheikh</h5>
+                        </li>
+
+                        <li>
+                            <div class="artistImg"><img src="media/7siilawy.jpg" alt="Siilawy" title="Siilawy" onclick="location.href='musicWeb7.html'"></div>
+                            
+                            <h5>Siilawy</h5>
+                        </li>
+
+                        <li>
+                            <div class="artistImg"><img src="media/8geasy.jpg" alt="G-easy" title="G-easy"  onclick="location.href='musicWeb8.html'"></div>
+                            
+                            <h5>G-easy</h5>
+                        </li>
+
+                        <li>
+                            <div class="artistImg"><img src="media/8hasley.jpg" alt="Hasley" title="Hasley" onclick="location.href='musicWeb8.html'"></div>
+                            
+                            <h5>Hasley</h5>
+                        </li>
+
+                        <li>
+                            <div class="artistImg"><img src="media/9raghebaalama.jpg" alt="Ragheb Aalama" title="Ragheb Aalama"  onclick="location.href='musicWeb9.html'"></div>
+                            
+                            <h5>Ragheb Aalama</h5>
+                        </li>
+
+                        <li>
+                            <div class="artistImg"><img src="media/10elissa.jpg" alt="Elissa" title="Elissa" onclick="location.href='musicWeb10.html'"></div>
+                            
+                            <h5>Elissa</h5>
+                        </li>
+
+                        <li>
+                            <div class="artistImg"><img src="media/11adelle.jpg" alt="Adele" title="Adele" onclick="location.href='musicWeb11.html'"></div>
+                            
+                            <h5>Adele</h5>
+                        </li>
+                    </div>
+                 </div>
+            </div>
+            
+            <div class="master_play">
+                <div class="wave">
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                </div>
+                <img src="media/4chihiro.jpg" alt="Chihiro" id="poster_master_play">
+                <h5 id="title">Chihiro
+                    <div class="subtitle">Billie Eilish</div>
+                </h5>
+                <div class="icon">
+                    <i class="bi bi-skip-start-fill" id="back"></i>
+                    <i onclick="playPause()" class="bi bi-play-fill" id="masterPlay"></i>
+                    <i class="bi bi-skip-end-fill" id="next"></i>
+                </div>
+                <span id="currentStart">0:00</span>
+                <div class="range">
+                    <input type="range" value="0" id="progress1">
+                </div>
+            
+            
+            
+            
+                <!--          <div class="bar">
+                       <input type="range" value="0" id="progress1">
+                        <div class="bar2" id="bar2"></div>
+                        <div class="dot"></div>
+              </div> -->
+                <span id="currentEnd">0:00</span>
+                <div class="vol">
+                    <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+                    <input type="range" id="vol" min="0" value="30" max="100">
+                    <div class="vol_bar"></div>
+                    <div class="dot" id="vol_dot"></div>
+                </div>
+                <div class="nextToVol">Euphomix</br>Your world of music.</div>
+            </div>       
+        </header>
+        
+    <!-- Javascript-->    
+        <script>
+            let progress = document.getElementById("progress1");
+            let song = document.getElementById("song1");
+            let ctrlIcon = document.getElementById("masterPlay");
+           
+            song.onloadedmetadata = function() {
+            progress.max = song.duration;
+            progress.value = song.currentTime;
+            
+        }
+
+        function playPause() {
+            if(ctrlIcon.classList.contains("bi-pause")) {
+                song.pause();
+                ctrlIcon.classList.remove("bi-pause");
+                ctrlIcon.classList.add("bi-play-fill");
+            } else {
+                song.play();
+                ctrlIcon.classList.add("bi-pause");
+                ctrlIcon.classList.remove("bi-play-fill");
+            }
+        }
+    if(song.play()){
+        setInterval(()=>{
+            progress.value=song.currentTime;
+        },500);
+    }
+
+    progress.onchange = function() {
+        song.play();
+        song.currentTime = progress.value;
+        ctrlIcon.classList.add("bi-pause");
+        ctrlIcon.classList.remove("bi-play-fill");
+    }
+    
+    let currentStart = document.getElementById("currentStart");
+    let currentEnd = document.getElementById("currentEnd");
+
+    song.addEventListener('timeupdate',()=>{
+      //  let song_curr = song.currentTime;
+      //  let song_durr = song.duration;
+
+        let min = Math.floor(progress.max/60);
+        let sec = Math.floor(progress.max%60);
+        if (sec<10) {
+            sec = `0${sec}`
+        }
+        currentEnd.innerText = `${min}:${sec}`;
+
+        let min1 = Math.floor(progress.value/60);
+        let sec1 = Math.floor(progress.value%60);
+        if (sec1<10) {
+            sec1 = `0${sec1}`
+        }
+        currentStart.innerText = `${min1}:${sec1}`;
+    })
+
+    let vol_icon = document.getElementById("vol_icon");
+    let vol = document.getElementById("vol");
+    let vol_dot = document.getElementById("vol_dot");
+    let vol_bar = document.getElementsByClassName("vol_bar")[0];
+
+    vol.addEventListener('change', ()=>{
+        if (vol.value == 0) {
+            vol_icon.classList.remove("bi-volume-down-fill");
+            vol_icon.classList.add("bi-volume-mute-fill");
+            vol_icon.classList.remove("bi-volume-up-fill");
+        }
+        if (vol.value > 0) {
+            vol_icon.classList.add("bi-volume-down-fill");
+            vol_icon.classList.remove("bi-volume-mute-fill");
+            vol_icon.classList.remove("bi-volume-up-fill");
+        }
+        if (vol.value > 50) {
+            vol_icon.classList.remove("bi-volume-down-fill");
+            vol_icon.classList.remove("bi-volume-mute-fill");
+            vol_icon.classList.add("bi-volume-up-fill");
+        }
+
+        let vol_a = vol.value;
+        vol_bar.style.width = `${vol_a}%`;
+        vol_dot.style.left = `${vol_a}%`;
+
+        song.volume = vol_a/100;
+    })
+
+    let left_scroll = document.getElementById("left_scroll");
+    let right_scroll = document.getElementById("right_scroll");
+    let pop_song = document.getElementsByClassName("pop_song")[0];
+
+    left_scroll.addEventListener('click', ()=>{
+        pop_song.scrollLeft -= 330;
+    })
+
+    right_scroll.addEventListener('click', ()=>{
+        pop_song.scrollLeft += 330;
+    })
+
+    let left_scrolls = document.getElementById("left_scrolls");
+    let right_scrolls = document.getElementById("right_scrolls");
+    let item = document.getElementsByClassName("item")[0];
+
+    left_scrolls.addEventListener('click', ()=>{
+        item.scrollLeft -= 330;
+    })
+
+    right_scrolls.addEventListener('click', ()=>{
+        item.scrollLeft += 330;
+    })
+
+
+        </script>
+    </body>
+</html>

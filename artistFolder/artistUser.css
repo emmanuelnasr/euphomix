@@ -1,0 +1,85 @@
+body {
+    font-family: "Kanit", sans-serif ;
+    background-image: url('photoartist.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 50px;
+    background-color: beige;
+}
+.second-paragraph{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.25em;
+        height: 30xp;
+        text-align: justify;
+        margin-right: 30px;
+        margin-left:  30px;
+}
+.text{
+    text-shadow: 5px -5px 10px rgb(0, 0, 0);
+}
+
+.centered-paragraph {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+form {
+    max-width: 500px;
+    margin: auto;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.form-group button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #91fc97;
+}
+form {
+    max-width: 500px;
+    margin: auto;
+    background-color:#20c5b5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
